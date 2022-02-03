@@ -82,7 +82,7 @@ metadata:
   name: team1voting-frontend
   namespace: default
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: team1voting-frontend
